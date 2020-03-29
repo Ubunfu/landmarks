@@ -14,6 +14,8 @@
 		6D9127A2242FD992004732DA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6D9127A1242FD992004732DA /* Preview Assets.xcassets */; };
 		6D9127A5242FD992004732DA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D9127A3242FD992004732DA /* LaunchScreen.storyboard */; };
 		6D9127B0242FD992004732DA /* LandmarksTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D9127AF242FD992004732DA /* LandmarksTests.swift */; };
+		6D9127BB242FE62C004732DA /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D9127BA242FE62C004732DA /* CircleImage.swift */; };
+		6D9127BD242FEACC004732DA /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D9127BC242FEACC004732DA /* MapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +40,8 @@
 		6D9127AB242FD992004732DA /* LandmarksTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LandmarksTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D9127AF242FD992004732DA /* LandmarksTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarksTests.swift; sourceTree = "<group>"; };
 		6D9127B1242FD992004732DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6D9127BA242FE62C004732DA /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		6D9127BC242FEACC004732DA /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +87,8 @@
 				6D91279A242FD98F004732DA /* SceneDelegate.swift */,
 				6D91279C242FD98F004732DA /* ContentView.swift */,
 				6D91279E242FD992004732DA /* Assets.xcassets */,
+				6D9127BA242FE62C004732DA /* CircleImage.swift */,
+				6D9127BC242FEACC004732DA /* MapView.swift */,
 				6D9127A3242FD992004732DA /* LaunchScreen.storyboard */,
 				6D9127A6242FD992004732DA /* Info.plist */,
 				6D9127A0242FD992004732DA /* Preview Content */,
@@ -209,6 +215,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				6D912799242FD98F004732DA /* AppDelegate.swift in Sources */,
+				6D9127BB242FE62C004732DA /* CircleImage.swift in Sources */,
+				6D9127BD242FEACC004732DA /* MapView.swift in Sources */,
 				6D91279B242FD98F004732DA /* SceneDelegate.swift in Sources */,
 				6D91279D242FD98F004732DA /* ContentView.swift in Sources */,
 			);
@@ -294,7 +302,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.3;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -348,7 +356,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -364,6 +372,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Landmarks/Preview Content\"";
+				DEVELOPMENT_TEAM = D46RMSRP9S;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Landmarks/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -383,6 +392,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Landmarks/Preview Content\"";
+				DEVELOPMENT_TEAM = D46RMSRP9S;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Landmarks/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
