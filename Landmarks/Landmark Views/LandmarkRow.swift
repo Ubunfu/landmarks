@@ -22,13 +22,17 @@ struct LandmarkRow: View {
             Text(landmark.name)
             Spacer()
         }
-        .padding()
+//        .padding()
     }
 }
 
 struct LandmarkRow_Previews: PreviewProvider {
     static var previews: some View {
         // landmarkData[0] autoloads from @/Resources/landmarkData.json ???...
-        LandmarkRow(landmark: landmarkData[0])
+        Group {
+            LandmarkRow(landmark: landmarkData[0])
+            LandmarkRow(landmark: landmarkData[7])
+        }
+        .previewLayout(.fixed(width: 300, height: 70))
     }
 }
