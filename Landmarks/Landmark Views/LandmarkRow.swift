@@ -14,7 +14,8 @@ struct LandmarkRow: View {
     
     var body: some View {
         HStack {
-            // How? Is it auto-resolving to landmark.imageName?
+            // image is an extended field of the Landmark, derived from creating an Image
+            // object from the imageName field
             landmark.image
                 // why no auto-complete while typing these modifiers?
                 .resizable()
@@ -28,7 +29,7 @@ struct LandmarkRow: View {
 
 struct LandmarkRow_Previews: PreviewProvider {
     static var previews: some View {
-        // landmarkData[0] autoloads from @/Resources/landmarkData.json ???...
+        // landmarkData is type [Landmark], created by parsing JSON in Data.swift
         Group {
             LandmarkRow(landmark: landmarkData[0])
             LandmarkRow(landmark: landmarkData[7])
